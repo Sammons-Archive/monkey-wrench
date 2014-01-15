@@ -1,0 +1,23 @@
+-Things I am working on in monkey-wrench
+	are for general use purposes, typically things I want
+	to do, and have decided I want to do in a reusable fashion
+	(sometimes I am just not in the mood to attack a full project either)
+
+-TODO
+	*	change that freaking express favicon
+	
+	*	write scanner script which will look at views folder and generate a
+		view-routes.js file which will be passed to app.use()	
+
+	*	create a generic method to implement openid for google
+		https://developers.google.com/accounts/docs/OpenID
+
+	*	create a generic method to implement oauth 2.0 for google
+		-this can be accomplished using strictly frontend code
+		also https://developers.google.com/accounts/docs/OAuth2Login
+
+	* 	create or find a module that will make database calls generic (SQL concealed? or nosql)
+
+	*	create or find a method of deploying both a --bare git repo and a production git repo
+		in a single one off command
+
